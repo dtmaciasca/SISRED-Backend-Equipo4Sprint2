@@ -1,0 +1,12 @@
+
+\.idea/
+
+sisred/__pycache__/
+
+sisred_app/__pycache__/
+
+sisred_app/migrations/
+
+*.sqlite3
+
+\env
