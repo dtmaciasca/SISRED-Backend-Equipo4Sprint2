@@ -109,9 +109,6 @@ class sisRedTestCase(TestCase):
         self.assertEqual(response.status_code, 200)
 
 
-
-    def test_buscar_recurso_byFechaCreacion(self):
-
     def test_add_metadata_existente_recurso(self):
 
         user = User.objects.create(username='user1', password='1234ABC', first_name='nombre1',
